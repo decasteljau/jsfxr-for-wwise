@@ -39,6 +39,8 @@ To import sound to Wwise:
  - Generate a sound
  - Click the **Send to Wwise** button OR press **W**
 
+Note: The first **Send to Wwise** is pressed, it can takes up to 10 seconds.
+
 ## jsfxr
 
 The original implementation is available here:
