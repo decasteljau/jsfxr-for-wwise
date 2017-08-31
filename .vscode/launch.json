@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Electron",
+            "configurations": [ "Electron main", "Electron renderer" ]
+        }
+    ],
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Electron main",
+            "program": "${workspaceRoot}/main.js",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "osx": {
+                "runtimeExecutable": "${workspaceRoot}/../electron/osx/Wwise Launcher.app/Contents/MacOS/Electron"
+            },
+            "windows": {
+                "runtimeExecutable": "${workspaceRoot}/node_modules/electron/dist/electron.exe"
+            },
+            "sourceMaps": true,
+            "stopOnEntry": false,
+            "runtimeArgs": [
+                "${workspaceRoot}",
+                "--remote-debugging-port=9222"
+            ]
+        },
+        // Chrome debugger plugin must be installed to debug the renderer process.
+        {
+            "name": "Electron renderer",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222
+        }
+    ]
+}
