@@ -36,6 +36,7 @@ First, ensure WAAPI is enabled in Wwise:
 Then, open a Wwise Project. Note that every imported sound will be in the **Default Work Unit**.
 
 To import sound to Wwise:
+ - Start jsfxr
  - Generate a sound
  - Click the **Send to Wwise** button OR press **W**
 
