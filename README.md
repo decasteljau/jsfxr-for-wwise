@@ -4,7 +4,7 @@
 
 ## Overview
 
-jsfxr is sound effect generator, which uses presets to generate randomized sounds. Generated sound can be imported directory to Wwise without the need to manually save files on hard disk.
+jsfxr is a sound effect generator, which uses presets to generate randomized sounds. Generated sound can be imported directory to Wwise without the need to manually save files on hard disk. jsfxr-for-wwise is embedded into an electron app, making it easy to to use on desktop.
 
 ## To Install
 
