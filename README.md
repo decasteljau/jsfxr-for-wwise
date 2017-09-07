@@ -46,7 +46,3 @@ Note: The first **Send to Wwise** is pressed, it can takes up to 10 seconds.
 
 The original implementation is available here:
 [jsfxr on github](https://github.com/grumdrig/jsfxr)
-
-## License
-
-[CC0 1.0 (Public Domain)](LICENSE.md)
