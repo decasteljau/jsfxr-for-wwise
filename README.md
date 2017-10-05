@@ -18,7 +18,7 @@ cd jsfxr-for-wwise
 # Install dependencies
 npm install
 # Compile Typescript
-tsc -p .
+npm run build
 # Run the app
 npm start
 ```
