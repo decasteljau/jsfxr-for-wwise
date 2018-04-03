@@ -13,6 +13,7 @@
         {
             "type": "node",
             "request": "launch",
+            "protocol": "inspector",
             "name": "Electron main",
             "program": "${workspaceRoot}/main.js",
             "args": [],

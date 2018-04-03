@@ -6,7 +6,7 @@
 
 jsfxr is a sound effect generator, which uses presets to generate randomized sounds. Generated sound can be imported directory to Wwise without the need to manually save files on hard disk. jsfxr-for-wwise is embedded into an Electron app, making it easy to to use on desktop.
 
-Note: Another version of this project exists without Electron: https://github.com/decasteljau/jsfxr-for-wwise-web
+Note: Another version of this project exists without Electron: [jsfxr-for-wwise-web](https://github.com/decasteljau/jsfxr-for-wwise-web)
 
 ## To Install
 
@@ -30,17 +30,19 @@ npm start
 jsfxr-for-wwise works with Wwise 2017.1.x and up.
 
 First, ensure WAAPI is enabled in Wwise:
- - menu **Project/Preferences**
- - Check **Enable Wwise Authoring API**
- - Click **OK**
- - Restart Wwise
+
+- menu **Project/Preferences**
+- Check **Enable Wwise Authoring API**
+- Click **OK**
+- Restart Wwise
 
 Then, open a Wwise Project. Note that every imported sound will be in the **Default Work Unit**.
 
 To import sound to Wwise:
- - Start jsfxr
- - Generate a sound
- - Click the **Send to Wwise** button OR press **W**
+
+- Start jsfxr
+- Generate a sound
+- Click the **Send to Wwise** button OR press **W**
 
 Note: The first **Send to Wwise** is pressed, it can takes up to 10 seconds.
 
